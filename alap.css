@@ -1,0 +1,42 @@
+ul{
+    list-style-type: none;
+}
+.menu{
+    display: grid;
+  grid-template-columns: auto auto auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "h h"
+    "n n"
+    "a as"
+    "f f"
+    ;
+
+}
+header{
+    grid-area: h;
+}
+article{
+    grid-area: a;
+}
+nav{
+    
+    grid-area: n;
+}
+footer{
+    grid-area: f;
+}
+aside{
+    grid-area: as;
+}
+.kep1{
+    width: 400px;
+    height: auto;
+}
+body{
+    background-color: black;
+    color:white;
+}
